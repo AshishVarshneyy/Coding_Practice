@@ -1,4 +1,4 @@
-/* This code ilustrate the map STL
+/* This code illustrate the map STL
  * and its working(insertion, traversing, searching, find, erase, clear)
  * and also reverse_traversing
  * Function : Time complexity
