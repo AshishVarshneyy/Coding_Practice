@@ -35,7 +35,10 @@ int main(){
     cin>>x;
     it = ch_set.find(x);
     if(it!=ch_set.end()){
-        cout<<*it
+        cout<<*it;
+    }
+    else{
+        cout<<"Not found";
     }
     return 0;
 }
