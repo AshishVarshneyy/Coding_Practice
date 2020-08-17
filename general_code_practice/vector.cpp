@@ -1,7 +1,7 @@
 /* This code illustrate the vector STL
  * and its working(insertion, traversing, searching, find)
  * Function : Time complexity
- * insertion: nlog(n)
+ * insertion: O(1):: push_back()
  * traverse : nlog(n)
  * search   : log(n)
  * erase    : log(n)
