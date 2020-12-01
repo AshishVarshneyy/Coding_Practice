@@ -5,6 +5,7 @@
  * traverse : nlog(n)
  * search   : log(n)
  * erase    : log(n)
+ * sort		: nlog(n)
  * for further details refer https://www.geeksforgeeks.org/vector-in-cpp-stl/
  */
 
