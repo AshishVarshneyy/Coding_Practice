@@ -1,3 +1,12 @@
+/*
+Question_link: ---
+
+Input : 5 3
+		1 2 3 4 5
+		1 2 3
+Output: 3
+*/
+
 #include <iostream>
 using namespace std;
 

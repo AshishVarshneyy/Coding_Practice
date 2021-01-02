@@ -1,3 +1,12 @@
+/*
+Question_link: https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one/0
+
+Input : 5 3
+		1 2 3 4 5
+		1 2 3
+Output: 5
+*/
+
 #include <iostream>
 using namespace std;
 
