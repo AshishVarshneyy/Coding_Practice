@@ -24,7 +24,8 @@ Iteration 5 max_end_here:  2 max_so_far:  4
 Iteration 6 max_end_here:  7 max_so_far:  7
 Iteration 7 max_end_here:  4 max_so_far:  7
 
-max_sum= 7
+subarray of max sum: 4 -1 -2 1 5
+
 */
 
 
@@ -32,19 +33,29 @@ max_sum= 7
 using namespace std;
 
 int largest_sum_contiguous_subarray(int arr[],int n){
-    int max_so_far=INT_MIN, max_end_here=0;
+    int max_so_far=INT_MIN, max_end_here=0, left=0, right=0;
+
     for(int i=0; i<n; i++){
         max_end_here = max_end_here + arr[i];
-        if(max_end_here<arr[i])
+
+        if(max_end_here<arr[i]){
+            left=i;
             max_end_here = arr[i];
-        if(max_so_far<max_end_here)
+        }
+        if(max_so_far<max_end_here){
+            right=i;
             max_so_far=max_end_here;
+        }
     }
+
+    for(int i=left; i<=right; i++)
+        cout<<arr[i]<<" ";
+    cout<<endl;
     return max_so_far;
 }
 
 int main(){
-    int arr[]={-2, -3, 4, -1, -2, 1, 5, -3}, n=8;
+    int arr[]={-1,-2,-3,-4}, n=4;
     cout<<largest_sum_contiguous_subarray(arr,n);
     return 0;
 }
