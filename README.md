@@ -28,3 +28,9 @@ Topics:
 | 3. | [Find min max](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/max_min_min_compa.cpp)| O(n)|
 | 4. | [Find kth min element](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Kth_min_ele.cpp)| O(n)|
 | 5. | [Find kth min element(Approach2)](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Kth_max_min.cpp)| O(nlogn)|
+
+
+### Algorithm
+| SNo. | Name | Time Complexity |
+| --- | --- | --- |
+| 1. |Kadane's(https://github.com/AshishVarshneyy/Coding_Practice/blob/master/algorithms/kadane's.cpp) | O(n)|
