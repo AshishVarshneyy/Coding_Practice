@@ -4,11 +4,13 @@
 > List of the questions.
 
 Topics:
-| [Array](https://github.com/AshishVarshneyy/Coding_Practice/tree/master/general_code_practice/Array) | Matrix | String |
-| Searching & Sorting | LinkedList | Binary Trees |
-| Binary Search Trees | Greedy | BackTracking |
-| Stacks & Queues | Heap | Graph |
-| Trie | Dynamic Programming | Bit Manipulation |
+| Easy | Medium | Hard |
+| --- | --- | --- |
+| [Array](https://github.com/AshishVarshneyy/Coding_Practice/tree/master/general_code_practice/Array) | Heap | Trie |
+| Matrix | LinkedList | Graph |
+| String | Binary Trees  | Greedy |
+| Bit Manipulation | Stacks & Queues | BackTracking |
+| Searching & Sorting | Binary Search Trees | Dynamic Programming |
 
 ### Array
 | SNo. | Name | Time Complexity |
