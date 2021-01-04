@@ -33,4 +33,4 @@ Topics:
 ### Algorithm
 | SNo. | Name | Time Complexity |
 | --- | --- | --- |
-| 1. |Kadane's(https://github.com/AshishVarshneyy/Coding_Practice/blob/master/algorithms/kadane's.cpp) | O(n)|
+| 1. |[Kadane's](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/algorithms/kadane's.cpp) | O(n)|
