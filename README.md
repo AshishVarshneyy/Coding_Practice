@@ -31,7 +31,7 @@ Topics:
 | 6. | [Cyclically_rotate_an_array_by_one](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Cyclically_rotate_an_array_by_one.cpp)| |
 | 7. | [find_subset_whose_sum_max](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/find_subset_whose_sum_max.cpp)| |
 | 8. | [intersection_two_array](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/intersection_two_array.cpp)| |
-| 9. | [Minimise_the_maximum_difference_between_heights](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Minimise_the_maximum_difference_between_heights.cpp)| |
+| 9. | [Minimise_the_maximum_difference_between_heights](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Minimise_the_maximum_difference_between_heights.cpp)| O(n)|
 | 10. | [negative_first_positive_last](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/negative_first_positive_last.cpp)| |
 | 11. | [Sort_an_array_of_0s,_1s_and_2s ](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Sort_an_array_of_0s%2C_1s_and_2s%20.cpp)| |
 | 12. | [union_two_array](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/union_two_array.cpp)| |
