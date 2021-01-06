@@ -28,7 +28,7 @@ Topics:
 | 11. | [Sort_an_array_of_0s,_1s_and_2s ](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Sort_an_array_of_0s%2C_1s_and_2s%20.cpp)| O(n)|
 | 12. | [union_two_array](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/union_two_array.cpp)| O(n)|
 | 13. | [Minimum_number_of_jumps](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Minimum_number_of_jumps.cpp)| O(n)|
-| 14. | [find_duplicate_in_an_array_of_(N+1I)ntegers](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Minimum_number_of_jumps.cpp)| O(n)|
+| 14. | [find_duplicate_in_an_array_of_(N+1I)ntegers](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/find_duplicate_in_an_array_of_(N%2B1I)ntegers.cpp)| O(n)|
 
 
 ### Algorithm
