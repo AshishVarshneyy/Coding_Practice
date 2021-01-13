@@ -11,7 +11,7 @@ Explanation: Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
 using namespace std;
 
 vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        int i;
+        int i=0;
 
         //Sorting intervals on start basis:
         sort(intervals.begin(), intervals.end());
@@ -20,7 +20,7 @@ vector<vector<int>> merge(vector<vector<int>>& intervals) {
         //Pushing first interval
         vector<vector<int> >result;
         result.push_back(intervals[i]);
-        cout<<result[0][1];
+        //cout<<result[0][1];
 
         //Evaluating result;
         for(i = 1; i < intervals.size(); i++) {
@@ -48,15 +48,15 @@ vector<vector<int>> merge(vector<vector<int>>& intervals) {
 int main(){
     vector<vector<int>> vect {{1,3},{8,10}, {2,6},{15,18}};
 
-    vector<vector<int> >res;
+    vector<vector<int>>res;
 
     res=merge(vect);
 
-    /*for(auto x:res){
+    for(auto x:res){
         for(auto y:x){
             cout<<y<<" ";
         }
         cout<<endl;
-    }*/
+    }
     return 0;
 }
