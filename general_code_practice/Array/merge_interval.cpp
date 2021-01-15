@@ -47,14 +47,13 @@ vector<vector<int>> merge(vector<vector<int>>& intervals) {
 
 int main(){
     vector<vector<int>> vect {{1,3},{8,10}, {2,6},{15,18}};
-
     vector<vector<int>>res;
 
     res=merge(vect);
 
-    for(auto x:res){
-        for(auto y:x){
-            cout<<y<<" ";
+    for(auto rows:res){
+        for(auto element:rows){
+            cout<<element<<" ";
         }
         cout<<endl;
     }
