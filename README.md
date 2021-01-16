@@ -31,6 +31,7 @@ Topics:
 | 14. | [find_duplicate_in_an_array_of_(N+1)Integers](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/find_duplicate_in_an_array_of_(N%2B1I)ntegers.cpp)| O(n)|
 | 15. | [Merge_Without_Extra_Space](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/Merge_Without_Extra_Space.cpp)| O((n+m)*log(n+m))|
 | 16. | [Merge_Intervals](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/merge_interval.cpp)| O(nlog(n))|
+| 17. | [Merge_Intervals(Approach2)](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/merge_interval(Approach2).cpp)| O(nlog(n))|
 
 
 ### Algorithm
