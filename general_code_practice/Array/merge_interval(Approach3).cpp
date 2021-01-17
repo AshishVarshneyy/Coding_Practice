@@ -15,7 +15,7 @@ int mergeInterval(vector<vector<int>>& vect){
         return{};
 
     int idx=0;
-
+    sort(vect.begin(), vect.end());
     for(int i=0; i<vect.size(); i++){
         if(vect[idx][1]>=vect[i][0]){
             vect[idx][1]=vect[i][1];
