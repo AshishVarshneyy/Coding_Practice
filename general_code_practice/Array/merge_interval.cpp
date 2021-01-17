@@ -43,7 +43,8 @@ vector<vector<int>> merge(vector<vector<int>>& intervals) {
         //Returning result yay!!!
         return result;
 
-    }
+}
+
 
 int main(){
     vector<vector<int>> vect {{1,3},{8,10}, {2,6},{15,18}};
