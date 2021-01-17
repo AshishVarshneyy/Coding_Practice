@@ -45,10 +45,11 @@ void printStack(stack<pair<int,int>> res){
 }
 
 int main(){
-    vector<vector<int>> vect {{1,2},{2,4}, {5,8},{1,10}, {11,12}};
+    vector<vector<int>> vect {{1,2},{2,4}, {5,8},{7,10}, {11,12}};
     stack<pair<int,int>>res;
 
     res=mergeInterval(vect);
+
     printStack(res);
 
     return 0;
