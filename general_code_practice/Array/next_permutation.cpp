@@ -57,7 +57,7 @@ void next_permutation(vector<int>& nums){
 }
 
 int main(){
-    vector<int> nums{1,3,5,2,4};
+    vector<int> nums{1,3,2,4,5};
     //vector<int> nums{5,4,3,2,1};
     next_permutation(nums);
 
