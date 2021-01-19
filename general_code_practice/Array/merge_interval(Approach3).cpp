@@ -18,7 +18,7 @@ int mergeInterval(vector<vector<int>>& vect){
     sort(vect.begin(), vect.end());
     for(int i=0; i<vect.size(); i++){
         if(vect[idx][1]>=vect[i][0]){
-            vect[idx][1]=vect[i][1];
+            vect[idx][1]=max(vect[idx][1],vect[i][1]);
         }
         else{
             idx++;
@@ -29,7 +29,7 @@ int mergeInterval(vector<vector<int>>& vect){
 }
 
 int main(){
-    vector<vector<int>> vect {{1,2},{2,4}, {5,8},{1,10}, {11,12}};
+    vector<vector<int>> vect {{1,2},{2,4}, {5,8},{7,10}, {11,12}};
 
     int limit;
     limit=mergeInterval(vect);

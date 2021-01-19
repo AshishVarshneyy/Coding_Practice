@@ -26,7 +26,8 @@ stack<pair<int,int>> mergeInterval(vector<vector<int>>& intervals) {
             res.push({start2, end2});
         else{
             res.pop();
-            res.push({start1, end2});
+            end1 = max(end1,end2);
+            res.push({start1, end1});
         }
     }
     return res;
@@ -45,11 +46,10 @@ void printStack(stack<pair<int,int>> res){
 }
 
 int main(){
-    vector<vector<int>> vect {{1,2},{2,4}, {5,8},{7,10}, {11,12}};
+    vector<vector<int>> vect {{1,4},{2,3}};
     stack<pair<int,int>>res;
 
     res=mergeInterval(vect);
-
     printStack(res);
 
     return 0;
