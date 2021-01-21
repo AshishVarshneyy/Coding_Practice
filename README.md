@@ -33,6 +33,8 @@ Topics:
 | 16. | [Merge_Intervals](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/merge_interval.cpp)| O(nlog(n))|
 | 17. | [Merge_Intervals(Approach2)](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/merge_interval(Approach2).cpp)| O(nlog(n))|
 | 18. | [Merge_Intervals(Approach3)](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/merge_interval(Approach3).cpp)| O(nlog(n))|
+| 19. | [Next Permutation](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/next_permutation.cpp)| O(n)|
+| 20. | [Count Inservion](https://github.com/AshishVarshneyy/Coding_Practice/blob/master/general_code_practice/Array/count_inversion.cpp)| O(nlog(n))|
 
 ### Algorithm
 | SNo. | Name | Time Complexity |
