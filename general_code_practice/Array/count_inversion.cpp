@@ -24,7 +24,6 @@ Explanation: As all the elements of array
 are same, so there is no inversion count.
 */
 
-//Using merge sort method
 
 #include<bits/stdc++.h>
 using namespace std;
