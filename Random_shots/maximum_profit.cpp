@@ -21,7 +21,7 @@ using namespace std;
 
 int max_profit(vector<int>nums){
     int msf=INT_MIN, meh=0;
-    meh=meh+nums[0];
+    msf=meh=meh+nums[0];
     for(int i=1; i<nums.size(); i++){
         meh=meh + nums[i];
         if(nums[i-1]>nums[i])
